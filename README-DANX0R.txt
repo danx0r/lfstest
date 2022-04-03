@@ -6,6 +6,10 @@ install nginx_default as /etc/nginx/sites-available/default
 
 LFS:
 
+cat giftless/giftless.yaml 
+AUTH_PROVIDERS:
+  - giftless.auth.allow_anon:read_write
+
 https://giftless.datopian.com/en/latest/quickstart.html
 https://giftless.datopian.com/en/latest/installation.html#running-from-pypi-package
 
@@ -15,8 +19,7 @@ pip install --upgrade Flask-Classful==0.15.0b1
 env:
 export FLASK_APP=giftless.wsgi_entrypoint
 
-flask run
-
+./flask-develop.sh
 
 to create lfs repo:
 
