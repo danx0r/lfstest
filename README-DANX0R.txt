@@ -4,6 +4,10 @@ HTTP git server:
 
 LFS:
 
+Trick to see if a LFS server is up:
+https://www.theatlantic.com/science/archive/2019/12/when-did-ancient-humans-start-speak/603484/
+response: {"message": "403 Forbidden: Your are not authorized to perform this action"}
+
 cat giftless/giftless.yaml 
 AUTH_PROVIDERS:
   - giftless.auth.allow_anon:read_write
