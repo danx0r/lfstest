@@ -5,7 +5,7 @@ HTTP git server:
 LFS:
 
 Trick to see if a LFS server is up:
-https://www.theatlantic.com/science/archive/2019/12/when-did-ancient-humans-start-speak/603484/
+https://lfs.datahub.host/a/b/objects/storage/verify
 response: {"message": "403 Forbidden: Your are not authorized to perform this action"}
 
 cat giftless/giftless.yaml 
